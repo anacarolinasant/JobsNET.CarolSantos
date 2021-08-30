@@ -1,0 +1,132 @@
+header{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2,h3 {
+    text-align: center;
+}
+
+.area {
+    position: relative;
+    text-align: center;
+    width: 1000px;
+    height: 600px;
+    border: 2px solid gray;
+    margin-right: 50px;
+    margin-left: 300px;
+}
+.cruciais{
+    position: relative;
+    margin-top: 25px;
+    margin-left: -10px;
+}
+
+#nome{
+    width:400px;
+    margin-left:10px;
+    height: 20px;
+}
+
+#cargo{
+    width:180px;
+    margin-left:10px;
+    margin-right: 5px;
+}
+
+.titulo {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.essenciais{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#relacao {
+    width: 120px;
+}
+
+.endereco{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#rua {
+    width: 400px;
+}
+
+.endereco-geral{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.contato{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.documentos{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.habilitacao{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.autodeclaracao{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.deficiencia{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.PCD{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.processos{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.botao{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+
+@media screen and  (max-width: 1080px) {
+    section, aside {
+        width: 100%;
+        padding: 0;
+    }
+    
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Talentos JobsNet</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<header>
+   <h1>Sejam bem vindxs ao JobsNet Submit!</h1> 
+   <h2>Somos um time disposto à ser o elo entre você e seu futuro!
+       Baseados em princípios da LGPD, trataremos os seus dados da forma mais segura possível!</h2>
+</header>
+<body>
+    <div class="area">
+    
+        <div class="cruciais">
+            <label for="name" class="titulo" id="labelnome">Nome*</label>
+            <input type="text" name="Nome" placeholder="Insira seu nome completo" id="nome" class="obrigatorio">
+            <label for="cargo" class="titulo" id="labelCargo">Cargo*</label>
+            <input type="text" name="cargo" placeholder="Insira o cargo pretendido" id="cargo"  class="obrigatorio">
+        </div>
+
+        <div class="essenciais">
+            <label for="date">Insira sua data de nascimento</label>
+            <input type="date" name="date" id="data" class="obrigatorio">
+            <label for="EstadoCivil" id="labelRelacao" class="titulo">Estado Civil</label>
+            <select name="estadoCivil" id="relacao">
+                <option value="Escolha">Escolha uma das opções</option>
+                <option value="Solteirx">Solteirx</option>
+                <option value="Casadx">Casadx</option>
+            </select>
+            <label for="Sexo" id="labelSexo" class="titulo">Sexo</label>
+            <select name="sexo" id="sexo" class="obrigatorio">
+                <option value="Escolha">Escolha uma das opções</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Marculno">Masculino</option>
+                <option value="Outro">Outro</option>
+            </select>
+        </div>
+
+        <div class="endereco">
+            <label for="endereco" id="labelEndereco" class="titulo">Endereço</label>
+            <input type="text" name="endereco" placeholder="Insira o seu melhor endereço" id="rua"  class="obrigatorio">
+            <label for="CEP" class="titulo" id="labelCEP">CEP</label>
+            <input type="text" name="CEP" placeholder="ex: 11.111.111" id="CEP">
+        </div>
+
+        <div class="endereco-geral">
+            <label for="bairro" class="titulo" id="labelBairro" class="obrigatorio">Bairro*</label>
+            <input type="text" name="bairro" id="bairro">
+            <label for="cidade" class="titulo" id="labelCidade" class="obrigatorio">Cidade*</label>
+            <input type="text" name="cidade" id="cidade">
+            <label for="estado" class="titulo" id="labelEstado" class="obrigatorio">Estado*</label>
+            <input type="text" name="estado" id="estado">
+        </div>
+
+        <div class="contato">
+            <label for="telefone" class="titulo" id="labelTelefone" class="obrigatorio">Telefone*</label>
+            <input type="text" name="telefone" placeholder="ex: 71 9 1111 1111" id="telefone" >
+            <label for="email" class="titulo" id="labelEmail"  class="obrigatorio">Email*</label>
+            <input type="text" name="email" id="email" placeholder="Insira o seu melhor email" class="obrigatorio">
+            <label for="linkedin" id="labelLinkedin" class="titulo">Linkedin</label>
+            <input type="text" name="linkedin" id="linkedin" placeholder="Insira o link do seu perfil no linkedin">
+        </div>
+
+        <div class="documentos">
+            <label for="identidade" id="labelIdentidade" class="titulo">Identidade (RG)*</label>
+            <input type="text" name="identidade" id="identidade" placeholder="10 dígitos" class="obrigatorio">
+            <label for="CPF" id="labelCPF" class="titulo">CPF*</label>
+            <input type="text" name="CPF" id="cpf" placeholder="11 dígitos" class="obrigatorio">
+        </div>
+
+        <div class="habilitacao">
+            <label for="habilitacao" id="labelHabilitacao" >Possui habilitação?*</label>
+            <select name="habilitacao" id="CNH" class="obrigatorio">
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+            <label for="CNH" id="labelCNH" class="titulo">CNH</label>
+            <input type="text" name="CNH" placeholder="11 dígitos">
+        </div>
+        <h3>Você se encaixa em algum critério de diversidade? Se sim, nos conte mais sobre você!</h3>
+        <div class="autodeclaracao">
+            
+            <label for="autodeclaracao" class="titulo">Com você se autodeclara?</label>
+            <select name="autodeclaracao" id="declaracao">
+                <option value="Escolha">Escolha uma das opções</option>
+                <option value="Pretx">Pretx</option>
+                <option value="Pardx">Pardx</option>
+                <option value="Índio">Índio(x)</option>
+                <option value="Brancx">Brancx</option>
+                <option value="Outro">Outro</option>
+            </select>
+        </div>
+        <div class="deficiencia">
+            <label for="deficiencia">Você é uma Pessoa com Deficiência (PcD)?*</label>
+            <select name="deficiência" id="deficiencia" class="obrigatorio">
+                <option value="Escolha">Escolha uma das opções</option>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>   
+            </select>  
+        </div>
+        <div class="PCD">               
+            <label for="PCD">Caso tenha assinalado qual, caso sinta-se avontade, informe sua deficicência</label>
+            <input type="text" name="PCD" id="PCD" placeholder="código ou descrição">
+        </div>  
+        <div class="processos">
+            <label for="processos">Você gostaria de participar de processos exclusivos à diversidades?*</label>
+            <select name="processos" id="processos" class="obrigatorio">
+                <option value="Escolha">Escolha uma das opções</option>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>            
+            </select>  
+        </div>
+        <div class="botao">
+            <button type="button" class="btn-info" onclick="cadastro()"> Finalizar Cadastro</button>
+        </div>
+
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
